@@ -18,7 +18,6 @@ function App() {
       totalTodo.push(inputValue);
       setTotaltodo(totalTodo);
       setInputValue("");
-      console.log(totalTodo);
     }
   };
 
