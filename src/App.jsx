@@ -7,8 +7,6 @@ function App() {
 
   const [totalTodo, setTotaltodo] = useState([]);
   const [isChecked, setIsChecked] = useState(false);
-  
-  
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
   };
