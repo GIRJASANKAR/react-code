@@ -70,7 +70,7 @@ function App() {
           >
             {totalTodo.map((x) => {
               return (
-                <div className=" py-4 border-b " key={x}>
+                <div className=" py-4 border-b " key={x+'key'}>
                   <input onChange={handleCheckboxChange} type="checkbox" /> {x}
                 </div>
               );
