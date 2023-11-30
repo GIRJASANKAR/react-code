@@ -11,6 +11,7 @@ function App() {
     setInputValue(event.target.value);
   };
 
+  
   const handleEnterKey = (event) => {
     if (event.key === "Enter") {
       totalTodo.push(inputValue);
