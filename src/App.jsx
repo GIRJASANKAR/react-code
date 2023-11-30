@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/edit.png";
-import "./App.css";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
@@ -11,7 +9,7 @@ function App() {
     setInputValue(event.target.value);
   };
 
-  
+
   const handleEnterKey = (event) => {
     if (event.key === "Enter") {
       totalTodo.push(inputValue);
